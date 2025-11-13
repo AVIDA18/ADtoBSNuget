@@ -1,8 +1,5 @@
 is_global = true
 build_property.RootNamespace = BSDateConverter
-build_property.ProjectDir = D:\Avida_Git\ADtoBSNuget\BSDateConverter\
+build_property.ProjectDir = /home/avida/Desktop/B2P/ADtoBSNuget/BSDateConverter/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.CsWinRTUseWindowsUIXamlProjections = false
-build_property.EffectiveAnalysisLevelStyle = 
-build_property.EnableCodeStyleSeverity = 

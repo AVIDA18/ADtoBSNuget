@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "mhtvo5kvWWU=",
+  "dgSpecHash": "OI7nA1MR1j58alrLPnm+YQyl4ycR/wGJFm1Zg/Hgf3FLBK6lAR+wQOKgspz2CFitjiIGy2x9QCa8ktzyFLlQEw==",
   "success": true,
-  "projectFilePath": "D:\\Avida_Git\\ADtoBSNuget\\TestDateBSAD\\TestDateBSAD.csproj",
+  "projectFilePath": "/home/avida/Desktop/B2P/ADtoBSNuget/TestDateBSAD/TestDateBSAD.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\LuZa\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "/home/avida/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/home/avida/.nuget/packages/bsdateconverter/1.1.0/bsdateconverter.1.1.0.nupkg.sha512"
   ],
   "logs": []
 }

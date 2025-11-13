@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "iFbiA+oSWBA=",
+  "dgSpecHash": "ERbeveQNlHyefBJ0aiMLr0AWIpEEb1xFVAQV6heQ45xnJycdJb2ihHd5JIgscZuQF7l+5H0bpBKta7ckwNN2MQ==",
   "success": true,
-  "projectFilePath": "D:\\Avida_Git\\ADtoBSNuget\\BSDateConverter\\BSDateConverter.csproj",
+  "projectFilePath": "/home/avida/Desktop/B2P/ADtoBSNuget/BSDateConverter/BSDateConverter.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\LuZa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\LuZa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\LuZa\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "/home/avida/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/avida/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/home/avida/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

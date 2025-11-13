@@ -24,7 +24,7 @@ using BSDateConverter;
 
 // Convert BS to AD
 string bsDate = "2086-06-05";
-DateTime adDate = DateConverter.ConvertBSToAD(bsDate);
+string adDate = DateConverter.ConvertBSToAD(bsDate);
 Console.WriteLine($"BS {bsDate} converts to AD {adDate:yyyy-MM-dd}");
 
 // Convert AD to BS
@@ -44,7 +44,7 @@ AD 2029-09-21 converts back to BS 2086-06-05
 ### ConvertBSToAD(string bsDate)
 Converts a Bikram Sambat date to Gregorian DateTime.
 - **Parameter**: `bsDate` - BS date in "YYYY-MM-DD" format
-- **Returns**: `DateTime` - Corresponding Gregorian date
+- **Returns**: `string` - Corresponding Gregorian date in YYYY-MM-DD format
 
 ### ConvertADToBS(DateTime adDate)
 Converts a Gregorian DateTime to Bikram Sambat date string.

@@ -13,14 +13,14 @@
             <summary>
             Converts a Bikram Sambat date to Gregorian DateTime.
             </summary>
-            <param name="bsDate">BS date in "YYYY-MM-DD" format</param>
+            <param name="BSDate">BS date in "YYYY-MM-DD" format</param>
             <returns>Corresponding Gregorian DateTime</returns>
         </member>
-        <member name="M:BSDateConverter.DateConverter.ConvertADToBS(System.DateTime)">
+        <member name="M:BSDateConverter.DateConverter.ConvertADToBS(System.String)">
             <summary>
             Converts a Gregorian DateTime to Bikram Sambat date string.
             </summary>
-            <param name="adDate">Gregorian DateTime</param>
+            <param name="ADDate">Gregorian DateTime</param>
             <returns>BS date in "YYYY-MM-DD" format</returns>
         </member>
         <member name="T:BSDateConverter.Models.DateLogEntry">

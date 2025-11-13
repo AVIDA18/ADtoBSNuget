@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestDateBSAD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfb865aeb7fb20119ced3bd54fe46ba884afd828")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcb8cf9b8f4b61ccdf0d9b327626ef2aa4a0f9e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestDateBSAD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestDateBSAD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

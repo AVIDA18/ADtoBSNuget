@@ -30,11 +30,11 @@ namespace BSDateConverter
         /// <summary>
         /// Converts a Bikram Sambat date to Gregorian DateTime.
         /// </summary>
-        /// <param name="bsDate">BS date in "YYYY-MM-DD" format</param>
+        /// <param name="BSDate">BS date in "YYYY-MM-DD" format</param>
         /// <returns>Corresponding Gregorian DateTime</returns>
-        public static DateTime ConvertBSToAD(string bsDate)
+        public static string ConvertBSToAD(string BSDate)
         {
-            var parts = bsDate.Split('-');
+            var parts = BSDate.Split('-' , '/');
             int year = int.Parse(parts[0]);
             int month = int.Parse(parts[1]);
             int day = int.Parse(parts[2]);
@@ -47,16 +47,18 @@ namespace BSDateConverter
             if (baseDate == default)
                 throw new ArgumentException("Invalid BS year or month");
 
-            return baseDate.AddDays(day - 1);
+            var adDate = baseDate.AddDays(day - 1);
+            return adDate.ToString("yyyy-MM-dd");
         }
 
         /// <summary>
         /// Converts a Gregorian DateTime to Bikram Sambat date string.
         /// </summary>
-        /// <param name="adDate">Gregorian DateTime</param>
+        /// <param name="ADDate">Gregorian DateTime</param>
         /// <returns>BS date in "YYYY-MM-DD" format</returns>
-        public static string ConvertADToBS(DateTime adDate)
+        public static string ConvertADToBS(string ADDate)
         {
+            DateTime adDate = DateTime.Parse(ADDate);
             var baseEntry = _data
                 .Where(x => x.EnglishDate <= adDate)
                 .OrderByDescending(x => x.EnglishDate)

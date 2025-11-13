@@ -4,5 +4,44 @@
         <name>BSDateConverter</name>
     </assembly>
     <members>
+        <member name="T:BSDateConverter.DateConverter">
+            <summary>
+            Provides methods for converting between Bikram Sambat and Gregorian calendar dates.
+            </summary>
+        </member>
+        <member name="M:BSDateConverter.DateConverter.ConvertBSToAD(System.String)">
+            <summary>
+            Converts a Bikram Sambat date to Gregorian DateTime.
+            </summary>
+            <param name="BSDate">BS date in "YYYY-MM-DD" format</param>
+            <returns>Corresponding Gregorian DateTime</returns>
+        </member>
+        <member name="M:BSDateConverter.DateConverter.ConvertADToBS(System.String)">
+            <summary>
+            Converts a Gregorian DateTime to Bikram Sambat date string.
+            </summary>
+            <param name="ADDate">Gregorian DateTime</param>
+            <returns>BS date in "YYYY-MM-DD" format</returns>
+        </member>
+        <member name="T:BSDateConverter.Models.DateLogEntry">
+            <summary>
+            Represents a mapping entry between Bikram Sambat and Gregorian dates.
+            </summary>
+        </member>
+        <member name="P:BSDateConverter.Models.DateLogEntry.BS_Year">
+            <summary>
+            Gets or sets the Bikram Sambat year.
+            </summary>
+        </member>
+        <member name="P:BSDateConverter.Models.DateLogEntry.BS_Month">
+            <summary>
+            Gets or sets the Bikram Sambat month.
+            </summary>
+        </member>
+        <member name="P:BSDateConverter.Models.DateLogEntry.EnglishDate">
+            <summary>
+            Gets or sets the corresponding Gregorian date.
+            </summary>
+        </member>
     </members>
 </doc>
