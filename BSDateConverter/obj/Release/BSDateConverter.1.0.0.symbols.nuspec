@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BSDateConverter</id>
+    <version>1.0.0</version>
+    <authors>Avishek Dahal(AVIDA)</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/AVIDA18/ADtoBSNuget/tree/main/BSDateConverter</projectUrl>
+    <description>A .NET Standard 2.0 library for converting between Bikram Sambat (BS) and Gregorian (AD) calendar dates. Supports BS years 2073-2086 (AD 2016-2029).</description>
+    <tags>bikram-sambat nepali-calendar date-conversion nepal bs-ad-converter</tags>
+    <repository type="git" url="https://github.com/AVIDA18/ADtoBSNuget/tree/main/BSDateConverter" commit="dfb865aeb7fb20119ced3bd54fe46ba884afd828" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Avida_Git\ADtoBSNuget\BSDateConverter\bin\Release\netstandard2.0\BSDateConverter.pdb" target="lib\netstandard2.0\BSDateConverter.pdb" />
+  </files>
+</package>

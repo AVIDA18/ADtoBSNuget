@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fKOEH/5Timg=",
+  "dgSpecHash": "mhtvo5kvWWU=",
   "success": true,
-  "projectFilePath": "E:\\Github\\ADtoBSNuget\\TestDateBSAD\\TestDateBSAD.csproj",
+  "projectFilePath": "D:\\Avida_Git\\ADtoBSNuget\\TestDateBSAD\\TestDateBSAD.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\LuZa\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

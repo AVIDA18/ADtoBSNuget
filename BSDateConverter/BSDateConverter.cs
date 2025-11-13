@@ -8,11 +8,14 @@ using BSDateConverter.Models;
 
 namespace BSDateConverter
 {
-    public static class BSDateConverter
+    /// <summary>
+    /// Provides methods for converting between Bikram Sambat and Gregorian calendar dates.
+    /// </summary>
+    public static class DateConverter
     {
         private static readonly List<DateLogEntry> _data;
 
-        static BSDateConverter()
+        static DateConverter()
         {
             var assembly = Assembly.GetExecutingAssembly();
 
@@ -24,6 +27,11 @@ namespace BSDateConverter
             }
         }
 
+        /// <summary>
+        /// Converts a Bikram Sambat date to Gregorian DateTime.
+        /// </summary>
+        /// <param name="bsDate">BS date in "YYYY-MM-DD" format</param>
+        /// <returns>Corresponding Gregorian DateTime</returns>
         public static DateTime ConvertBSToAD(string bsDate)
         {
             var parts = bsDate.Split('-');
@@ -42,6 +50,11 @@ namespace BSDateConverter
             return baseDate.AddDays(day - 1);
         }
 
+        /// <summary>
+        /// Converts a Gregorian DateTime to Bikram Sambat date string.
+        /// </summary>
+        /// <param name="adDate">Gregorian DateTime</param>
+        /// <returns>BS date in "YYYY-MM-DD" format</returns>
         public static string ConvertADToBS(DateTime adDate)
         {
             var baseEntry = _data

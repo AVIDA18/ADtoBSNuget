@@ -2,10 +2,20 @@
 
   <PropertyGroup>
 	  <PackageId>BSDateConverter</PackageId>
-	  <Version>1.0.0</Version>
+	  <Version>1.1.0</Version>
 	  <Authors>Avishek Dahal(AVIDA)</Authors>
-	  <Description>Convert between Bikram Sambat and Gregorian dates.</Description>
+	  <Description>A .NET Standard 2.0 library for converting between Bikram Sambat (BS) and Gregorian (AD) calendar dates. Supports BS years 1975-2099 (AD 1975-2043).</Description>
+	  <PackageTags>bikram-sambat;nepali-calendar;bs-ad-converter;date-conversion;nepal;nepali-date;dotnet-calendar;calendar-conversion</PackageTags>
+	  <PackageProjectUrl>https://github.com/AVIDA18/ADtoBSNuget/tree/main/BSDateConverter</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/AVIDA18/ADtoBSNuget/tree/main/BSDateConverter</RepositoryUrl>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <PackageReleaseNotes>Version 1.1.0: Updated release with BS to AD and AD to BS conversion support for years 1975-2099.</PackageReleaseNotes>
 	  <TargetFramework>netstandard2.0</TargetFramework>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,6 +24,10 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Data\DateLog.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <ItemGroup>
